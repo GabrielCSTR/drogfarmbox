@@ -1,0 +1,21 @@
+<div class="container">
+
+<div class="row">
+<div class="col md-12">
+    <div class="panel panel-border info">
+        <div class="panel__heading">Usuário:</div>
+        <div class="panel__body">
+            <dl class="horizontal"><dt>Usuário</dt><dd>: {{UserName}}</dd></dl>
+            <dl class="horizontal"><dt>Caixa</dt><dd>: {{NCaixa}}</dd></dl>
+            <dl class="horizontal"><dt>Status Caixa</dt><dd >: <span ng-class="class">{{StatusCaixa}}</span></dd></dl>
+        </div>
+    </div><!-- .panel.panel-border.info -->
+    <div class="row">
+        <div class="col md-12">
+            <button class="btn success"  id="opencaixa" type="button" name="action" value="add">Abrir Caixa</button>
+            <button class="btn default" id="closedcaixa" type="button" name="actionCancel" value="cancel">Fecha Caixa</button>
+        </div>
+    </div>
+</div>
+</div><!-- .row -->
+</div><!-- .container -->

@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+dist/
+releases/
+release/
+TODO.txt
+*.log
+*.xcf
+*.bak
+*.old

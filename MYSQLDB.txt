@@ -1,0 +1,24 @@
+CREATE TABLE user (
+    id int NOT NULL,
+    UsrName varchar(255) NOT NULL,
+    FullName varchar(255),
+    Password varchar(255) NOT NULL,
+    CaixaStatus tinyint,
+    Date date,
+    Cargo int,
+    NCaixa int,
+
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE db_vendas (
+    id int NOT NULL,
+    Date datetime,
+    Client varchar(255) NOT NULL,
+    Total varchar(255) NOT NULL,
+    status varchar(255),
+    vendedor varchar(255) NOT NULL,
+    caixa varchar(255),
+    
+    PRIMARY KEY (id)
+);
